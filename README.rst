@@ -1,7 +1,15 @@
-WOOOHOO THIS IS THE README!
+usage: strongPasswordGenerator [options]
 
+Preset patterns to be used with -x flag:
+	1. [a-zA-Z0-9] - abcDEF789
+	2. [a-f0-9] - Hexadecimal
+	3. [\.\-] - Morse
 
-
-asd wooop
-
-
+optional arguments:
+  -h, --help    show this help message and exit
+  -x PATTERN    Specifies pattern preset, overrides whitelist
+  -w WHITELIST  Regex pattern for allowed characters
+  -b BLACKLIST  Regex pattern for disallowed characters
+  -v            Verbose mode
+  -q            Avoid similar characters (1iIl0oO'´`\|.,), overrides blacklist
+  -c LENGTH     Password length
