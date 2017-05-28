@@ -14,7 +14,7 @@ Usage
 
 If no options are specified
 Password length : 15
-Pattern : !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}
+Pattern : !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_\`abcdefghijklmnopqrstuvwxyz{|}
 
 usage: strongPasswordGenerator [options]
 
@@ -29,5 +29,5 @@ optional arguments:
   -w WHITELIST  Regex pattern for allowed characters
   -b BLACKLIST  Regex pattern for disallowed characters
   -v            Verbose mode
-  -q            Avoid similar characters (1iIl0oO'´`\|.,), overrides blacklist
+  -q            Avoid similar characters (1iIl0oO'´\`\|.,), overrides blacklist
   -c LENGTH     Password length
