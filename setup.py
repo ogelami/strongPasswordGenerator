@@ -10,7 +10,7 @@ if sys.version_info < (3,4):
 setup(name='StrongPasswordGenerator',
   version='0.1',
   description='Generates a strong password',
-  long_description=read('README.rst'),
+  long_description=read('README.md'),
   url='http://github.com/ogelami/StrongPasswordGenerator',
   author='ogelami',
   author_email='ogelami@gmail.com',
