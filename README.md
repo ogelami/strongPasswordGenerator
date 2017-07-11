@@ -12,6 +12,10 @@ python setup.py install
 Usage
 =====
 
+If no options are specified:
+* Password length : 15
+* Pattern : !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}
+
 usage: strongPasswordGenerator [options]
 
 Preset patterns to be used with -x flag:
