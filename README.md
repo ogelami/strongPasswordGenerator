@@ -19,6 +19,7 @@ Preset patterns to be used with -x flag:
 2. [a-f0-9] - Hexadecimal
 3. [\.\-] - Morse
 
+~~~~
 optional arguments:
 -h, --help    show this help message and exit
 -x PATTERN    Specifies pattern preset, overrides whitelist
